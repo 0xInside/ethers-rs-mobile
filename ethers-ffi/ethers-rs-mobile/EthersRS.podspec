@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/uniswap/ethers-rs-mobile"
   s.license      = "MIT"
   s.author       = { "author" => "cmcewen@uniswap.org" }
-  s.platforms    = { :ios => "9.0", :tvos => "11.0" }
+  s.platforms    = { :ios => "9.0", :tvos => "11.0", :watchos => "2.0" }
   s.source       = { :git => "https://github.com/uniswap/ethers-rs-mobile.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/*.h"
